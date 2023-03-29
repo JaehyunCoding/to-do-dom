@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <form>
+        
+        <label>Enter To-Do Items: </label>
+        <br>
+        <input id="toDoItem" type="text" autocomplete="off">
+                
+        <div>
+        <button id="add">ADD</button>
+        <button type="button" id="removeCompleted">REMOVE COMPLETED TASKS</button>
+        <button type="button" id="removeAll">REMOVE ALL</button>
+        <!-- type="button"은 form의 function인 submit에서 자유롭게 해줄것이다. -->
+        </div>
+    </form>
+
+    
+    <div>
+        <ul id="toDoList">
+            
+        </ul>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

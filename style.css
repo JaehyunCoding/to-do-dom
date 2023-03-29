@@ -1,0 +1,28 @@
+
+
+li {
+    border: 0.1px solid lightcoral;
+    border-radius: 1px;
+    list-style-type: none;
+    display: block;
+    text-align: left;
+    margin: 0px;
+}
+
+#add{
+    font-size: 15px;
+    color: white;
+    background-color: green;
+}
+
+#removeCompleted{
+    font-size: 15px;
+    color: white;
+    background-color: yellowgreen;
+}
+
+#removeAll{
+    font-size: 15px;
+    color: white;
+    background-color: red;
+}
